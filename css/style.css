@@ -60,7 +60,9 @@ header h1 {
 nav {
     width: 100%;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    font-family: "DIN Condensed";
+    font-size: 20px;
 }
 
 .merkhonda {
