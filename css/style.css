@@ -1,0 +1,159 @@
+html {}
+
+@import url(https://fonts.google.com/?query=din+con);
+body {
+    background-image: url("https://wallpapercave.com/wp/wp1734814.jpg");
+    Background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+/*header*/
+
+header {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header li:first-child a {
+    white-space: nowrap;
+}
+
+section a {
+    display: inline-block;
+    font-family: monospace;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+section {
+    max-height: 60em;
+}
+
+img {
+    max-width: 100%;
+    max-height: 5em;
+}
+
+article img {
+    padding: 1em;
+    max-height: 10em
+}
+
+article a {
+    padding: 2em
+}
+
+header h1 {
+    color: #000;
+    font-family: "DIN Condensed";
+}
+
+
+/* nav */
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+
+.merkhonda {
+    font-family: "DIN Condensed";
+    background-color: rgba(255, 0, 0, 0.9);
+    display: inline-flex;
+    display: flex;
+}
+
+.merkktm {
+    font-family: "DIN Condensed";
+    background-color: rgba(255, 140, 0, 0.9);
+    display: inline-flex;
+    display: flex;
+}
+
+.merkbmw {
+    background-color: rgba(44, 130, 201, 0.9);
+    font-family: "DIN Condensed";
+    display: inline-flex;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center
+}
+
+h2 {
+    color: azure;
+    margin: 2%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-right: 0.5em;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: aliceblue;
+    font-family: "DIN Condensed";
+    font-size: 1.2em;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: "DIN Condensed";
+    color: aliceblue;
+    font-size: 2em;
+}
+
+section {
+    flex-direction: column;
+}
+
+.nav {
+    padding-right: 1em
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+article {flex-direction: row}
+
+.geschiedenis
+{margin-left: 1em;
+max-width: 30em}
+
+.xrv750 {   font-family: "DIN Condensed";
+    background-color: rgba(255, 0, 0, 0.9);
+    display: inline-flex;
+    display: flex;}
+
+/* media query */
+
+@media screen and (min-width: 850px) {
+    header {
+        background-color: white;
+    }
+    .logo {
+        color: black;
+    }
+    section {
+        flex-direction: row;
+    }
+    a {
+        color: black;
+    }
+}
