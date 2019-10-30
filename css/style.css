@@ -211,21 +211,26 @@
                         color: white;
                     }
 
-                    #myProgress {
-                        width: 100%;
-                        background-color: grey;
-                    }
-
-                    #myBar {
-                        width: 1%;
-                        height: 30px;
-                        background-color: green;
-                    }
-
                     header {
                         display: flex;
                         justify-content: space-between;
                     }
+
+#Progress_Status {
+  width: 50%;
+  background-color: #ddd;
+}
+
+#myprogressBar {
+  width: 1%;
+  height: 35px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 32px;
+  color: black;
+}
+
+main { padding-bottom: 3em;}
                     /* media query */
 
                     @media screen and (min-width: 850px) {
