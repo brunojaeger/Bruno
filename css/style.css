@@ -212,16 +212,16 @@ script {
         display: grid;
         grid-template-columns: 2fr 1fr 2fr;
     }
-    article#xrv750 > header {
+   #xrv750 > header {
         grid-column: 1/2;
         grid-row: 1/2;
     }
-    article#xrv750 > figure {
+   #xrv750 > figure {
         display: flex;
         grid-column: 2/4;
         grid-row: 1/3;
     }
-    article#xrv750 > section#geschiedenis {
+    #xrv750 > #geschiedenis {
         grid-column: 1/2;
         grid-row: 2/3;
     }
@@ -229,17 +229,17 @@ script {
         grid-column: 1/2;
         grid-row: 2/3;
     }
-    article#xrv750 > section#fotos {
+    article#xrv750 > #fotos {
         grid-column: 1/4;
         grid-row: 3/4;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         padding-left: 5em;
     }
-    article#xrv750 > section#fotos h3 {
+    #xrv750 > #fotos h3 {
         grid-column: 1 / 4
     }
-    section#geschiedenis {
+   #geschiedenis {
         display: flex;
         flex-direction: column;
         align-items: center;
