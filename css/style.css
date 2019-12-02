@@ -205,7 +205,7 @@
                     transition: all .5s;
                 }
             }
-            input[type=search]:valid button {
+            input:valid button {
                 width: 20em;
             }
             button {

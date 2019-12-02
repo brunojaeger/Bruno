@@ -1,4 +1,4 @@
- /* credits codegar */
+ /* credits codegar https://codepen.io/collection/bxdaH/ */
 var coolbutton = document.getElementById('coolbutton');
     var inprogress = false;
     coolbutton.onclick = function(){
