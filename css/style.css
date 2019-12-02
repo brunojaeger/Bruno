@@ -61,18 +61,21 @@
                 }
 
                 .merkhonda,
-                .merkktm, {
+                .merkktm,
+                .merkbmw {
                     font-family: "DIN Condensed";
-                    background-color: rgba(255, 255, 255, 0.9);
+                    background-color: rgba(0, 0, 0, 0.9);
                     display: inline-flex;
                     display: flex;
                 }
 
                 .merkktm {
-                    background-color: rgba(255, 255, 255, 0.7);
+                    background-color: rgba(0, 0, 0, 0.7);
                 }
 
-
+                .merkbmw {
+                    background-color: rgba(44, 130, 201, 0.9);
+                }
 
                 .merkhonda {
                     padding-top: 6em;
@@ -133,7 +136,7 @@
 
                 #xrv750 {
                     font-family: "DIN Condensed";
-                    background-color: rgba(255, 0, 0, 0.9);
+                    background-color: rgba(0, 0, 0, 0.9);
                 }
 
                 .detailfoto1,
@@ -192,7 +195,7 @@
                     display: flex;
                     flex-direction: column;
                     font-family: "DIN Condensed";
-                    background-color: rgba(255, 0, 0, 0.9);
+                    background-color: rgba(0, 0, 0, 0.9);
                 }
 
                 input[type=search] {
@@ -213,7 +216,7 @@
             .container {
                 height: 30vh;
                 width: auto;
-                background-color: rgba(255, 0, 0, 0.9);
+                background-color: rgba(0, 0, 0, 0.9);
                 padding-top: 5vh;
             }
             .button {
